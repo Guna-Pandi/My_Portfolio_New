@@ -10,8 +10,7 @@ const Multitext = () => {
         'Frontend Developer',
         'Ui/Ux Designer',
         'Programmer',
-        '',
-        
+        'Problem Solver',
       ],
       loop: true,
       typeSpeed: 100,
