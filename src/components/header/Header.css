@@ -1,5 +1,5 @@
 header {
-  height: 110vh;
+  height: 100vh;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -109,23 +109,26 @@ header {
     height: 450px;
   }
   header {
-    height: 130vh;
+    height: 100vh;
     padding-top: 3rem;
     overflow: visible;
   }
-  .header_social,
-  .scroll_down {
+  .header_social {
     padding: 20px;
+  }
+
+  .scroll_down {
+    display: none;
   }
 }
 
 @media (max-width: 390px) {
   header {
-    height: 150vh;
+    height: 100vh;
   }
 }
 @media (max-width: 1024px) {
   header {
-    height: 90vh;
+    height: 100vh;
   }
 }

@@ -28,3 +28,10 @@
     background: var(--color-bg);
     color: var(--color-white);
 } 
+
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 0.7rem 0.8rem;
+    }
+}

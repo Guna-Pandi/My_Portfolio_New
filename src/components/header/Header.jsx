@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import Multitext from "./Multitext";
 import CTA from "./CTA";
-import ME from "../../assets/guna3.png";
+// import ME from "../../assets/guna3.png";
 import HeaderSocial from "./HeaderSocial";
 
 const Header = () => {
@@ -19,17 +19,17 @@ const Header = () => {
         <div class="cont-bio">
           <div class="bio">
             <p className="bio-para">
-              "Welcome to my portfolio! I am a web developer with 1 year of
-              experience building dynamic and responsive web applications. I am
-              continuously expanding my skillset, currently focusing on
-              technologies such as React, Node.js, Express, MongoDB, Eleventy,
-              Tailwind CSS, and PostgreSQL. Here, you will find a collection of
-              my past projects and my experiences. Thanks for visiting!"
+              "Welcome to my portfolio! As a front-end developer with 1 year of
+              experience, I create dynamic and responsive web apps that offer
+              exceptional user experience. I focus on technologies like React,
+              Vue.js, Angular, HTML, CSS, and JS to deliver cutting-edge
+              solutions. Check out my past projects and experiences, and contact
+              me for any questions or collaboration. Thank you for visiting!"
             </p>
           </div>
-          <div class="image">
+          {/* <div class="image">
             <img src={ME} alt="me" class="my-img" />
-          </div>
+          </div> */}
         </div>
 
         <a href="#contact" className="scroll_down">
