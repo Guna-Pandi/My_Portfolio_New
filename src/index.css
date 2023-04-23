@@ -69,10 +69,12 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 4rem;
+  height: 100vh;
 }
 
 section > h2,
+section > h1,
 section > h5 {
   text-align: center;
   color: var(--color-light);
@@ -111,12 +113,12 @@ a:hover {
   background: var(--color-primary);
   color: var(--color-bg);
 }
-/* img {
+img {
   display: block;
-  width: ;
+  width: 100%;
 
   object-fit: cover;
-} */
+}
 
 /* ==================== media Queries ==================== */
 

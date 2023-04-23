@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 110vh;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -64,8 +64,6 @@ header {
   height: 450px;
 }
 
-
-
 /* =================== scrool down ======================== */
 
 .scroll_down {
@@ -117,7 +115,7 @@ header {
   }
   .header_social,
   .scroll_down {
-    display: none;
+    padding: 20px;
   }
 }
 

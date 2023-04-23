@@ -2,9 +2,9 @@ import React from 'react';
 import './Portfolio.css';
 const Portfolio = () => {
   return (
-    <div>
+    <section>
       Portfolio
-    </div>
+    </section>
   )
 }
 
