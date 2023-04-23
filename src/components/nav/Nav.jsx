@@ -1,12 +1,8 @@
-import React from 'react';
-import './Nav.css';
+import React from "react";
+import "./Nav.css";
 
 const Nav = () => {
-  return (
-    <div>
-      Nav
-    </div>
-  )
-}
+  return <Nav>sdv</Nav>;
+};
 
-export default Nav
+export default Nav;
