@@ -1,0 +1,8 @@
+.exp__h1 {
+  color: var(--color-primary);
+  font-size: 35px;
+}
+.exp__headings {
+  display: flex;
+  justify-content: space-between;
+}
