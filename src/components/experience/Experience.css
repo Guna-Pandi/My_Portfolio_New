@@ -6,3 +6,34 @@
   display: flex;
   justify-content: space-between;
 }
+.experience__head1 {
+  padding: 10px;
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+  height: fit-content;
+  transition: var(--transition);
+}
+.experience__head2 {
+  padding: 10px;
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+}
+.experience__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 25px;
+}
+.exp__headings {
+  background: rgb(213, 145, 145);
+}
+.experience__overall {
+  background: rgb(213, 145, 145);
+}
+/* .experience__list{
+  display: grid;
+  grid-template-columns: ;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+} */

@@ -7,7 +7,8 @@ const Experience = () => {
     <section id="experience">
       <h1 className="exp__h1">Experience</h1>
       <div className="container experience__container">
-        <article className="experience__head">
+        <article className="experience__head1">
+        <div className="experience__overall">
           <div className="exp__headings">
             <h3>Team webilicious</h3>
             <p>jan 2023</p>
@@ -15,8 +16,9 @@ const Experience = () => {
           <div>
             <h5>Role: Full Stack Developer Intern</h5>
           </div>
+          </div>
           <ul>
-            <li>
+            <li className="experience__list">
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Led the development of Rurket, a rural side groceries delivery
@@ -48,7 +50,7 @@ const Experience = () => {
           </ul>
         </article>
         {/* NEOPHRON THECHNOLOGIES */}
-        <article className="experience__head">
+        <article className="experience__head2">
           <div className="exp__headings">
             <h3>Neophron Technologies</h3>
             <p>July 2022</p>
