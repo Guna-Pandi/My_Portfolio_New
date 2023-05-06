@@ -11,13 +11,13 @@ const Header = () => {
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Guna Pandithurai</h1>
-        <h5 class="text-light">
+        <h5 className="text-light">
           <Multitext />
         </h5>
         <CTA />
         <HeaderSocial />
-        <div class="cont-bio">
-          <div class="bio">
+        <div className="cont-bio">
+          <div className="bio">
             <p className="bio-para">
               "Welcome to my portfolio! As a front-end developer with 1 year of
               experience, I create dynamic and responsive web apps that offer

@@ -1,6 +1,6 @@
 header {
-  height: 100vh;
   padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 .header_container {
   text-align: center;
@@ -90,17 +90,18 @@ header {
 }
 
 /* ==================== media Queries ==================== */
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .cont-bio {
     flex-direction: column;
   }
   .bio {
-    padding-top: 20px;
+    margin-top: 5rem;
     text-align: center;
     height: 310px;
     width: 300px;
   }
   .bio-para {
+    /* padding-top: 5rem; */
     font-size: 15px;
   }
   .my-img {
@@ -108,7 +109,6 @@ header {
     height: 450px;
   }
   header {
-    height: 100vh;
     padding-top: 3rem;
     overflow: visible;
   }
@@ -121,7 +121,7 @@ header {
   }
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   header {
     height: 100vh;
   }
@@ -130,4 +130,4 @@ header {
   header {
     height: 100vh;
   }
-}
+} */
