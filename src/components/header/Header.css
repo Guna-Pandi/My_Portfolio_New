@@ -89,6 +89,11 @@ header {
   transform-origin: center bottom;
 }
 
+/* ============multitext ==================== */
+.text-light {
+  font-size: 1rem;
+}
+
 /* ==================== media Queries ==================== */
 @media screen and (max-width: 600px) {
   .cont-bio {
