@@ -12,21 +12,10 @@ body {
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-  width: 8px; /* width of the scrollbar */
+  scroll-behavior: smooth;
+  display: none; /* width of the scrollbar */
 }
 
-::-webkit-scrollbar-track {
-  background-color: #2c2c6c; /* color of the track */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #4db5ff; /* color of the scrollbar thumb */
-  border-radius: 4px; /* roundness of the scrollbar thumb */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #797886; /* color of the scrollbar thumb on hover */
-}
 * {
   margin: 0;
   padding: 0;
@@ -70,7 +59,6 @@ h1 {
 
 section {
   margin-top: 4rem;
-
 }
 
 section > h2,

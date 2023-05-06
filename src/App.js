@@ -17,7 +17,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 3500);
   }, []);
 
   // //Disable Right Click
@@ -38,7 +38,7 @@ function App() {
       <PacmanLoader
         color={ '#4db5ff'}
         loading={loading}
-        size={100}
+        size={50}
       />
     </div>
       :
