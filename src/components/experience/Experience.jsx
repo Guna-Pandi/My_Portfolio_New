@@ -4,20 +4,20 @@ import { VscActivateBreakpoints } from "react-icons/vsc";
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section id="experience" className="experience">
       <h1 className="exp__h1">Experience</h1>
       <div className="container experience__container">
         <article className="experience__head1">
-        <div className="experience__overall">
-          <div className="exp__headings">
-            <h3>Team webilicious</h3>
-            <p>jan 2023</p>
+          <div className="experience__overall">
+            <div className="exp__headings">
+              <h3>Team webilicious</h3>
+              <p>jan 2023</p>
+            </div>
+            <div>
+              <h5>Role: Full Stack Developer Intern</h5>
+            </div>
           </div>
-          <div>
-            <h5>Role: Full Stack Developer Intern</h5>
-          </div>
-          </div>
-          <ul>
+          <ul className="experience__ul">
             <li className="experience__list">
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
@@ -51,14 +51,16 @@ const Experience = () => {
         </article>
         {/* NEOPHRON THECHNOLOGIES */}
         <article className="experience__head2">
-          <div className="exp__headings">
-            <h3>Neophron Technologies</h3>
-            <p>July 2022</p>
+          <div className="experience__overall">
+            <div className="exp__headings">
+              <h3>Neophron Technologies</h3>
+              <p>July 2022</p>
+            </div>
+            <div>
+              <h5>Role: Frontend Developer Intern</h5>
+            </div>
           </div>
-          <div>
-            <h5>Role: Frontend Developer Intern</h5>
-          </div>
-          <ul>
+          <ul className="experience__ul">
             <li>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
@@ -76,24 +78,29 @@ const Experience = () => {
             <li>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-              Got exposure to devops tools that increases an organization's ability to deliver applications and services.
+                Got exposure to devops tools that increases an organization's
+                ability to deliver applications and services.
               </p>
             </li>
             <li>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-              Handled project phases from planning stage to deployment and maintenance stage
-              </p>
-            </li>
-            <li>
-              <VscActivateBreakpoints className="experience__pointicon" />
-              <p className="experience__para">Learnt about distributed version control system like git and hosting service like Github
+                Handled project phases from planning stage to deployment and
+                maintenance stage
               </p>
             </li>
             <li>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-              Handled project phases from planning stage to deployment and maintenance stage
+                Learnt about distributed version control system like git and
+                hosting service like Github
+              </p>
+            </li>
+            <li>
+              <VscActivateBreakpoints className="experience__pointicon" />
+              <p className="experience__para">
+                Handled project phases from planning stage to deployment and
+                maintenance stage
               </p>
             </li>
           </ul>
