@@ -13,8 +13,9 @@ body {
 }
 ::-webkit-scrollbar {
   scroll-behavior: smooth;
-  display: none; /* width of the scrollbar */
+  display: none;
 }
+
 
 * {
   margin: 0;
@@ -59,6 +60,7 @@ h1 {
 
 section {
   margin-top: 4rem;
+
 }
 
 section > h2,
