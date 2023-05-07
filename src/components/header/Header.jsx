@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import Multitext from "./Multitext";
 import CTA from "./CTA";
-// import ME from "../../assets/guna3.png";
+import ME from "../../assets/guna1.jpg";
 import HeaderSocial from "./HeaderSocial";
 
 const Header = () => {
@@ -27,9 +27,9 @@ const Header = () => {
               me for any questions or collaboration. Thank you for visiting!"
             </p>
           </div>
-          {/* <div class="image">
+          <div class="image">
             <img src={ME} alt="me" class="my-img" />
-          </div> */}
+          </div>
         </div>
 
         <a href="#contact" className="scroll_down">
