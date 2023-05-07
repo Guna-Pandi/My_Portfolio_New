@@ -1,11 +1,21 @@
 import React from "react";
 import "./Experience.css";
 import { VscActivateBreakpoints } from "react-icons/vsc";
+import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
     <section id="experience" className="experience">
-      <h1 className="exp__h1">Experience</h1>
+      <motion.h1 className="exp__h1" 
+      initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, x: -30 },
+          visible: { opacity: 1, x: 0 },
+        }} 
+       >Experience</motion.h1>
       <div className="container experience__container">
         <article className="experience__head1">
           <div className="experience__overall">
@@ -18,35 +28,64 @@ const Experience = () => {
             </div>
           </div>
           <ul className="experience__ul">
-            <li className="experience__list">
+            <motion.li className="experience__list"
+               initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Led the development of Rurket, a rural side groceries delivery
                 application, utilizing ReactJS, TailwindCSS, and Firebase for
                 the backend.
               </p>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Developed a strong understanding of React and implemented Agile
                 methodology throughout the software development lifecycle.
               </p>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Responsible for end-to-end testing and reviewing of code to
                 ensure high-quality and functionality.
               </p>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Built the application to be a Progressive Web Application to
                 provide a seamless user experience.
               </p>
-            </li>
+            </motion.li>
           </ul>
         </article>
         {/* NEOPHRON THECHNOLOGIES */}
@@ -61,48 +100,90 @@ const Experience = () => {
             </div>
           </div>
           <ul className="experience__ul">
-            <li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Responsible for backend development with popular technologies
                 like Node.js, Express.js and MongoDB.
               </p>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Built API with REST Architecture for a project and got exposure
                 with Postman.
               </p>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Got exposure to devops tools that increases an organization's
                 ability to deliver applications and services.
               </p>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Handled project phases from planning stage to deployment and
                 maintenance stage
               </p>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Learnt about distributed version control system like git and
                 hosting service like Github
               </p>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li    initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
                 Handled project phases from planning stage to deployment and
                 maintenance stage
               </p>
-            </li>
+            </motion.li>
           </ul>
         </article>
       </div>

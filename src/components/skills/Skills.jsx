@@ -35,15 +35,16 @@ const Skills = () => {
         Here's a glimpse of my tech toolkit, packed with a diverse range of
         cutting-edge technologies and tools I've skillfully wielded!
       </h5>
-      <motion.div className="skills__images"initial="hidden"
+      <motion.div
+        className="skills__images"
+        initial="hidden"
         whileInView="visible"
-        viewport={{ once: false, amount: 0.5 }}
-        transition={{ duration: 0.8 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 0.5 }}
         variants={{
-          hidden: { opacity: 0, x: +50 },
+          hidden: { opacity: 0, x: 30 },
           visible: { opacity: 1, x: 0 },
-        }}
-      >
+        }}>
         <div className="single__img">
           <img src={Html} alt="html" className="logo__imgs" />
           <p className="skills__para">HTML</p>

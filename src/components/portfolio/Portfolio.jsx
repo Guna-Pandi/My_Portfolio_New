@@ -7,6 +7,7 @@ import Img4 from "../../assets/take_control.png";
 import Img5 from "../../assets/auth-firebase.png";
 import Img6 from "../../assets/vote.png";
 import { BsGithub } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const data = [
   {
@@ -55,10 +56,26 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h1 className="portfolio__h1">Portfolio</h1>
+      <motion.h1 className="portfolio__h1"
+      initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, x: -50 },
+          visible: { opacity: 1, x: 0 },
+        }} >Portfolio</motion.h1>
       <h5 className="portfolio__h5">My Recent Works</h5>
 
-      <div className="container portfolio__container">
+      <motion.div className="container portfolio__container"
+      initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0. }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, x: -20 },
+          visible: { opacity: 1, x: 0 },
+        }} >
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article className="portfolio__item" key={id}>
@@ -85,7 +102,7 @@ const Portfolio = () => {
             </article>
           );
         })}
-      </div>
+      </motion.div>
     </section>
   );
 };

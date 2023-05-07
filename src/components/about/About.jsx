@@ -26,7 +26,7 @@ const About = () => {
               className="about__para"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.9 }}
+              viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -50,7 +50,7 @@ const About = () => {
               className="about__para"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.9 }}
+              viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -74,7 +74,7 @@ const About = () => {
               className="about__para"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.9 }}
+              viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
