@@ -14,16 +14,36 @@ import Firebase from "../../assets/logo/firebase.png";
 import Canva from "../../assets/logo/canva.png";
 import Figma from "../../assets/logo/figma.png";
 import Netlify from "../../assets/logo/Netlify New 2023.png";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
     <section id="skills" className="skill__section">
-      <h1 className="skills__h1">Skills</h1>
+      <motion.h1
+        className="skills__h1"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.5 }}
+        transition={{ duration: 0.8 }}
+        variants={{
+          hidden: { opacity: 0, x: -50 },
+          visible: { opacity: 1, x: 0 },
+        }}>
+        Skills
+      </motion.h1>
       <h5 className="skills__h5">
         Here's a glimpse of my tech toolkit, packed with a diverse range of
         cutting-edge technologies and tools I've skillfully wielded!
       </h5>
-      <div className="skills__images">
+      <motion.div className="skills__images"initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.5 }}
+        transition={{ duration: 0.8 }}
+        variants={{
+          hidden: { opacity: 0, x: +50 },
+          visible: { opacity: 1, x: 0 },
+        }}
+      >
         <div className="single__img">
           <img src={Html} alt="html" className="logo__imgs" />
           <p className="skills__para">HTML</p>
@@ -80,7 +100,7 @@ const Skills = () => {
           <img src={Figma} alt="figma" className="logo__imgs" />
           <p className="skills__para">Figma</p>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

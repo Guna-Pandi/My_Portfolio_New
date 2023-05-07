@@ -34,8 +34,8 @@
     height: auto;
   }
   .skills__images {
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   }
   .logo__imgs {
     height: auto;
@@ -48,7 +48,7 @@
   }
   .skills__images {
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   }
   .logo__imgs {
     height: auto;
