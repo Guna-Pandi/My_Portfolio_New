@@ -14,11 +14,21 @@
   height: fit-content;
   transition: var(--transition);
 }
+.experience__head1:hover{
+  border-color: var(--color-primary-varient);
+  background: transparent;
+  box-shadow: 0px 4px 8px #4db5ff;
+}
 .experience__head2 {
   margin-top: 25px;
   border-radius: 0 0 2rem 2rem;
   border: 1px solid var(--color-primary);
   background: var(--color-bg-variant);
+}
+.experience__head2:hover{
+  border-color: var(--color-primary-varient);
+  background: transparent;
+  box-shadow: 0px 4px 8px #4db5ff;
 }
 .experience__container {
   display: flex;
