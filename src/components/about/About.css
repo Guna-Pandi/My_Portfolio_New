@@ -1,11 +1,13 @@
-
-.about__section{
-
+.about__section {
 }
 .about__h1 {
   color: var(--color-primary);
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
   font-size: 2rem;
+}
+.about__h5 {
+  padding-bottom: 2rem;
+  font-size: 15px;
 }
 
 .about__arrow1 {
@@ -14,7 +16,7 @@
   margin-top: -2.6rem;
 }
 
-.about__para{
+.about__para {
   display: flex;
   justify-content: flex-start;
   font-size: 1.2rem;
@@ -24,28 +26,26 @@
   .about__h1 {
     font-size: 1.5rem;
   }
-  .about__para{
+  .about__para {
     font-size: 1rem;
   }
-  .about__content{
+  .about__content {
     margin-left: 25px;
     margin-right: 25px;
   }
-  .about__section{
+  .about__section {
     height: auto;
   }
   .about__arrow1 {
     display: none;
-   
   }
 }
 
-@media screen and (max-width: 400px){
-  .about__section{ 
+@media screen and (max-width: 400px) {
+  .about__section {
     height: auto;
   }
   .about__arrow1 {
     display: none;
-   
   }
 }

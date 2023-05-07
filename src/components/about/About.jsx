@@ -5,8 +5,8 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 const About = () => {
   return (
     <section id="about" className="about__section">
-      <h5>Get to Know</h5>
       <h1 className="about__h1">About Me</h1>
+      <h5 className="about__h5">Get to Know</h5>
       <div className="container about__container">
        
         <div className="about__content">

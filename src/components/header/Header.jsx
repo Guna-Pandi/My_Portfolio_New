@@ -4,13 +4,25 @@ import Multitext from "./Multitext";
 import CTA from "./CTA";
 import ME from "../../assets/guna1.jpg";
 import HeaderSocial from "./HeaderSocial";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
     <header id="home">
       <div className="container header_container">
         <h5>Hello I'm</h5>
-        <h1>Guna Pandithurai</h1>
+        <motion.h1
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.9 }}
+          transition={{ duration: 0.8 }}
+          variants={{
+            hidden: { opacity: 0, x: -80 },
+            visible: { opacity: 1, x: 0 },
+          }}>
+          Guna Pandithurai
+        </motion.h1>
+
         <h5 className="text-light">
           <Multitext />
         </h5>
