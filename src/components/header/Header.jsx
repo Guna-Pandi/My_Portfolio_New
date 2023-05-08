@@ -40,11 +40,11 @@ const Header = () => {
                 visible: { opacity: 1, x: 0 },
               }}
               className="bio-para">
-              Greetings! As an experienced front-end developer with one year of
+              Greetings! As an experienced front-end developer with <span className="header__sapn">ONE </span> year of
               experience, I design and develop dynamic and responsive web
               applications that offer exceptional user experiences. My expertise
-              lies in technologies such as React, HTML, CSS, and JS, and I
-              utilize frameworks like Tailwind CSS and Framer Motion to create
+              lies in technologies such as <span className="header__sapn">React</span>, <span className="header__sapn">HTML</span>, <span className="header__sapn">CSS</span>, and <span className="header__sapn">JS</span>, and I
+              utilize frameworks like <span className="header__sapn">Tailwind CSS</span> and <span className="header__sapn">Framer Motion</span> to create
               visually stunning designs. Please explore my portfolio to view my
               past projects and experiences. Do not hesitate to contact me for
               any inquiries or collaboration opportunities. Thank you for

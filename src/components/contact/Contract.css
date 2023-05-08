@@ -19,6 +19,7 @@
 }
 .contact__option:hover {
   background: transparent;
+  box-shadow: 0px 4px 8px #4db5ff;
   border-color: var(--color-primary-varient);
 }
 .contact__option-icon {
