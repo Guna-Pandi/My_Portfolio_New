@@ -144,7 +144,9 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-              As a front-end developer, I utilized ReactJS, CSS, Material UI, and Framer Motion to create engaging user interfaces for various projects.
+                As a front-end developer, I utilized ReactJS, CSS, Material UI,
+                and Framer Motion to create engaging user interfaces for various
+                projects.
               </p>
             </motion.li>
             <motion.li
@@ -158,8 +160,9 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Built API with REST Architecture for a project and got exposure
-                with Postman.
+                I was responsible for the development of the front-end,
+                collaborating closely with the back-end team to integrate it
+                with popular technologies like Node.js, Express.js, and MongoDB.
               </p>
             </motion.li>
             <motion.li
@@ -173,8 +176,9 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Got exposure to devops tools that increases an organization's
-                ability to deliver applications and services.
+                I gained knowledge of DevOps tools and techniques that increase
+                an organization's ability to deliver applications and services
+                efficiently.
               </p>
             </motion.li>
             <motion.li
@@ -188,8 +192,7 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Handled project phases from planning stage to deployment and
-                maintenance stage
+              Throughout the development process, I handled various project phases from planning to deployment and maintenance stages, ensuring smooth delivery.
               </p>
             </motion.li>
             <motion.li
@@ -203,23 +206,7 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Learnt about distributed version control system like git and
-                hosting service like Github
-              </p>
-            </motion.li>
-            <motion.li
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
-              transition={{ duration: 0.7 }}
-              variants={{
-                hidden: { opacity: 0, y: 80 },
-                visible: { opacity: 1, y: 0 },
-              }}>
-              <VscActivateBreakpoints className="experience__pointicon" />
-              <p className="experience__para">
-                Handled project phases from planning stage to deployment and
-                maintenance stage
+              I also learned about distributed version control systems like Git and hosted projects on services like Github for better collaboration and version control.
               </p>
             </motion.li>
           </ul>
