@@ -40,18 +40,21 @@ const Header = () => {
                 visible: { opacity: 1, x: 0 },
               }}
               className="bio-para">
-              "Welcome to my portfolio! As a front-end developer with 1 year of
-              experience, I create dynamic and responsive web apps that offer
-              exceptional user experience. I focus on technologies like React,
-              Vue.js, Angular, HTML, CSS, and JS to deliver cutting-edge
-              solutions. Check out my past projects and experiences, and contact
-              me for any questions or collaboration. Thank you for visiting!"
+              Greetings! As an experienced front-end developer with one year of
+              experience, I design and develop dynamic and responsive web
+              applications that offer exceptional user experiences. My expertise
+              lies in technologies such as React, HTML, CSS, and JS, and I
+              utilize frameworks like Tailwind CSS and Framer Motion to create
+              visually stunning designs. Please explore my portfolio to view my
+              past projects and experiences. Do not hesitate to contact me for
+              any inquiries or collaboration opportunities. Thank you for
+              visiting!
             </motion.p>
           </div>
           <motion.div
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: false, amount: 0.5}}
+            viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.8 }}
             variants={{
               hidden: { opacity: 0, x: 40 },
