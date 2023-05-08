@@ -66,3 +66,9 @@
 .experience__ul {
   padding: 0.8rem;
 }
+
+@media screen and (max-width: 600px) {
+.experience__pointicon{
+  display:none;
+}
+}
