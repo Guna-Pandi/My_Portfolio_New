@@ -20,16 +20,18 @@ function App() {
     }, 3000);
   }, []);
 
-  // //Disable Right Click
-  // useEffect(() => {
-  //   const handleContextmenu = (e) => {
-  //     e.preventDefault();
-  //   };
-  //   document.addEventListener("contextmenu", handleContextmenu);
-  //   return function cleanup() {
-  //     document.removeEventListener("contextmenu", handleContextmenu);
-  //   };
-  // }, []);
+  //Disable Right Click
+  const handleContextmenu = (e) => {
+    e.preventDefault();
+  };
+  
+  useEffect(() => {
+    document.addEventListener("contextmenu", handleContextmenu);
+    return () => {
+      document.removeEventListener("contextmenu", handleContextmenu);
+    };
+  }, []);
+  
 
   return (
     <div>
