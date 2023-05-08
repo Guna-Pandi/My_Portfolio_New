@@ -13,69 +13,79 @@ const data = [
   {
     id: 1,
     image: Img1,
-    title: "This is portfolio items",
-    github: "",
-    demo: "",
+    title:
+      "Jobify is a cloud-based platform for job posting, application management, and candidate tracking.",
+    github: "https://github.com/Guna-Pandi/Jobify-Frontend",
+    demo: "https://github.com/Guna-Pandi/Jobify-Frontend",
   },
   {
-    id: 1,
+    id: 2,
     image: Img2,
-    title: "This is portfolio items",
-    github: "",
-    demo: "",
+    title:
+      "Expense management systems streamline expenses, invoices, and financial reports, saving costs and enhancing financial accuracy and transparency.",
+    github: "https://github.com/Guna-Pandi/ExpenseManagementSystem",
+    demo: "https://github.com/Guna-Pandi/ExpenseManagementSystem",
   },
   {
-    id: 1,
+    id: 3,
     image: Img3,
-    title: "This is portfolio items",
-    github: "",
-    demo: "",
+    title:
+      "An online food delivery website lets customers order from a restaurant and have it delivered to their doorstep with ease.",
+    github: "https://github.com/Guna-Pandi/Restaurant-Aplication",
+    demo: "https://github.com/Guna-Pandi/Restaurant-Aplication",
   },
   {
-    id: 1,
+    id: 4,
     image: Img4,
-    title: "This is portfolio items",
-    github: "",
-    demo: "",
+    title:
+      "A conference website provides event details, registration, and resources like presentation slides or recorded sessions for attendees.",
+    github:
+      "https://github.com/Guna-Pandi/Conference-website-using-html-and-css",
+    demo: "https://github.com/Guna-Pandi/Conference-website-using-html-and-css",
   },
   {
-    id: 1,
+    id: 5,
     image: Img5,
-    title: "This is portfolio items",
-    github: "",
-    demo: "",
+    title:
+      "Firebase-based authentication websites allow users to sign up and log in to access the web application's features.  ",
+    github: "https://github.com/Guna-Pandi/login_auth_using_firebase_reactJs",
+    demo: "https://github.com/Guna-Pandi/login_auth_using_firebase_reactJs",
   },
   {
-    id: 1,
+    id: 6,
     image: Img6,
-    title: "This is portfolio items",
-    github: "",
-    demo: "",
+    title: "A voting website allows users to vote online and aggregates the results.",
+    github: "https://github.com/Guna-Pandi/voting-with-all-eligible-functions",
+    demo: "https://github.com/Guna-Pandi/voting-with-all-eligible-functions",
   },
 ];
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <motion.h1 className="portfolio__h1"
-      initial="hidden"
+      <motion.h1
+        className="portfolio__h1"
+        initial="hidden"
         whileInView="visible"
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, x: -50 },
           visible: { opacity: 1, x: 0 },
-        }} >Portfolio</motion.h1>
+        }}>
+        Portfolio
+      </motion.h1>
       <h5 className="portfolio__h5">My Recent Works</h5>
 
-      <motion.div className="container portfolio__container"
-      initial="hidden"
+      <motion.div
+        className="container portfolio__container"
+        initial="hidden"
         whileInView="visible"
-        viewport={{ once: false, amount: 0. }}
+        viewport={{ once: false, amount: 0 }}
         transition={{ duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, x: -20 },
           visible: { opacity: 1, x: 0 },
-        }} >
+        }}>
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article className="portfolio__item" key={id}>

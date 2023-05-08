@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "../../assets/GunaResume.pdf";
-import './Header.css';
+import "./Header.css";
 
 const CTA = () => {
   return (
@@ -8,7 +8,7 @@ const CTA = () => {
       <a href={Resume} download className="btn">
         Download CV
       </a>
-      <a href="#account" className="btn btn-primary">
+      <a href="#contact" className="btn btn-primary">
         Let's Talk😊
       </a>
     </div>

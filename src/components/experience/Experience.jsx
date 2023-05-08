@@ -6,16 +6,18 @@ import { motion } from "framer-motion";
 const Experience = () => {
   return (
     <section id="experience" className="experience">
-      <motion.h1 className="exp__h1" 
-      initial="hidden"
+      <motion.h1
+        className="exp__h1"
+        initial="hidden"
         whileInView="visible"
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, x: -30 },
           visible: { opacity: 1, x: 0 },
-        }} 
-       >Experience</motion.h1>
+        }}>
+        Experience
+      </motion.h1>
       <div className="container experience__container">
         <article className="experience__head1">
           <div className="experience__overall">
@@ -28,8 +30,9 @@ const Experience = () => {
             </div>
           </div>
           <ul className="experience__ul">
-            <motion.li className="experience__list"
-               initial="hidden"
+            <motion.li
+              className="experience__list"
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -39,12 +42,12 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Led the development of Rurket, a rural side groceries delivery
-                application, utilizing ReactJS, TailwindCSS, and Firebase for
-                the backend.
+                Spearheaded the development of Rurket, a grocery delivery
+                application for rural areas
               </p>
             </motion.li>
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -54,11 +57,11 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Developed a strong understanding of React and implemented Agile
-                methodology throughout the software development lifecycle.
+                Utilized ReactJS, TailwindCSS, and Firebase for the backend
               </p>
             </motion.li>
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -68,11 +71,12 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Responsible for end-to-end testing and reviewing of code to
-                ensure high-quality and functionality.
+                Implemented Agile methodology to ensure an efficient software
+                development lifecycle
               </p>
             </motion.li>
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -82,8 +86,37 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Built the application to be a Progressive Web Application to
-                provide a seamless user experience.
+                Gained a robust understanding of React
+              </p>
+            </motion.li>
+            <motion.li
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
+              <VscActivateBreakpoints className="experience__pointicon" />
+              <p className="experience__para">
+                Oversaw end-to-end testing and code reviewing to guarantee
+                high-quality and functional results
+              </p>
+            </motion.li>
+            <motion.li
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.6 }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 80 },
+                visible: { opacity: 1, y: 0 },
+              }}>
+              <VscActivateBreakpoints className="experience__pointicon" />
+              <p className="experience__para">
+                Built the application as a Progressive Web Application to
+                provide a seamless user experience
               </p>
             </motion.li>
           </ul>
@@ -100,7 +133,8 @@ const Experience = () => {
             </div>
           </div>
           <ul className="experience__ul">
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -110,11 +144,11 @@ const Experience = () => {
               }}>
               <VscActivateBreakpoints className="experience__pointicon" />
               <p className="experience__para">
-                Responsible for backend development with popular technologies
-                like Node.js, Express.js and MongoDB.
+              As a front-end developer, I utilized ReactJS, CSS, Material UI, and Framer Motion to create engaging user interfaces for various projects.
               </p>
             </motion.li>
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -128,7 +162,8 @@ const Experience = () => {
                 with Postman.
               </p>
             </motion.li>
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -142,7 +177,8 @@ const Experience = () => {
                 ability to deliver applications and services.
               </p>
             </motion.li>
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -156,7 +192,8 @@ const Experience = () => {
                 maintenance stage
               </p>
             </motion.li>
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
@@ -170,7 +207,8 @@ const Experience = () => {
                 hosting service like Github
               </p>
             </motion.li>
-            <motion.li    initial="hidden"
+            <motion.li
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.6 }}
               transition={{ duration: 0.7 }}
