@@ -20,17 +20,17 @@ function App() {
     }, 3000);
   }, []);
 
-  // // Disable Right Click
-  // const handleContextmenu = (e) => {
-  //   e.preventDefault();
-  // };
+  // Disable Right Click
+  const handleContextmenu = (e) => {
+    e.preventDefault();
+  };
 
-  // useEffect(() => {
-  //   document.addEventListener("contextmenu", handleContextmenu);
-  //   return () => {
-  //     document.removeEventListener("contextmenu", handleContextmenu);
-  //   };
-  // }, []);
+  useEffect(() => {
+    document.addEventListener("contextmenu", handleContextmenu);
+    return () => {
+      document.removeEventListener("contextmenu", handleContextmenu);
+    };
+  }, []);
 
   return (
     <div>
