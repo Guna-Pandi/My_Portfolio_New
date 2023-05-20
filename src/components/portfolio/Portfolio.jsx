@@ -80,7 +80,7 @@ const Portfolio = () => {
         className="container portfolio__container"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: false, amount: 0 }}
+        viewport={{ once: true, amount: 0 }}
         transition={{ duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, x: -20 },
