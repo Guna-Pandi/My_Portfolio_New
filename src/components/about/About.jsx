@@ -18,7 +18,7 @@ const About = () => {
         }}>
         About Me
       </motion.h1>
-      <h5 className="about__h5">Get to Know</h5>
+      <h5 className="about__h5">Discover more about me</h5>
       <div className="container about__container">
         <div className="about__content">
           <div className="about__pt1">
@@ -26,7 +26,7 @@ const About = () => {
               className="about__para"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -50,7 +50,7 @@ const About = () => {
               className="about__para"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -74,7 +74,7 @@ const About = () => {
               className="about__para"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -95,17 +95,17 @@ const About = () => {
 
           <br></br>
           <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: false, amount: 0.5 }}
-          transition={{ duration: 0.7 }}
-          variants={{
-            hidden: { opacity: 0, x: -80 },
-            visible: { opacity: 1, x: 0 },
-          }}>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk😊
-          </a>
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0, x: -80 },
+              visible: { opacity: 1, x: 0 },
+            }}>
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk😊
+            </a>
           </motion.div>
         </div>
       </div>
