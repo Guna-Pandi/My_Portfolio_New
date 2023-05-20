@@ -34,7 +34,7 @@ const Experience = () => {
               className="experience__list"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -49,7 +49,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -63,7 +63,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -78,7 +78,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -92,7 +92,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -107,7 +107,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -136,7 +136,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -152,7 +152,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -168,7 +168,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -184,7 +184,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
@@ -198,7 +198,7 @@ const Experience = () => {
             <motion.li
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, y: 80 },
