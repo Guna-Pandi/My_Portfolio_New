@@ -20,42 +20,37 @@ function App() {
     }, 3000);
   }, []);
 
-  //Disable Right Click
-  const handleContextmenu = (e) => {
-    e.preventDefault();
-  };
-  
-  useEffect(() => {
-    document.addEventListener("contextmenu", handleContextmenu);
-    return () => {
-      document.removeEventListener("contextmenu", handleContextmenu);
-    };
-  }, []);
-  
+  // //Disable Right Click
+  // const handleContextmenu = (e) => {
+  //   e.preventDefault();
+  // };
+
+  // useEffect(() => {
+  //   document.addEventListener("contextmenu", handleContextmenu);
+  //   return () => {
+  //     document.removeEventListener("contextmenu", handleContextmenu);
+  //   };
+  // }, []);
 
   return (
     <div>
-    { loading?
-    <div className="loader__symbol">
-      <PacmanLoader
-        color={ '#4db5ff'}
-        loading={loading}
-        size={50}
-      />
+      {loading ? (
+        <div className="loader__symbol">
+          <PacmanLoader color={"#4db5ff"} loading={loading} size={50} />
+        </div>
+      ) : (
+        <>
+          <Header />
+          <Nav />
+          <About />
+          <Skills />
+          <Experience />
+          <Portfolio />
+          <Contact />
+          <Footer />
+        </>
+      )}
     </div>
-      :
-    <>
-      <Header />
-      <Nav />
-      <About />
-      <Skills />
-      <Experience />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </>
-}
-</div>
   );
 }
 

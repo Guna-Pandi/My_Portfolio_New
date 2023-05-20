@@ -33,18 +33,23 @@ const Header = () => {
             <motion.p
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8 }}
               variants={{
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
               className="bio-para">
-              Greetings! As an experienced front-end developer with <span className="header__sapn">ONE </span> year of
-              experience, I design and develop dynamic and responsive web
-              applications that offer exceptional user experiences. My expertise
-              lies in technologies such as <span className="header__sapn">React</span>, <span className="header__sapn">HTML</span>, <span className="header__sapn">CSS</span>, and <span className="header__sapn">JS</span>, and I
-              utilize frameworks like <span className="header__sapn">Tailwind CSS</span> and <span className="header__sapn">Framer Motion</span> to create
+              Greetings! As an experienced front-end developer with{" "}
+              <span className="header__sapn">ONE </span> year of experience, I
+              design and develop dynamic and responsive web applications that
+              offer exceptional user experiences. My expertise lies in
+              technologies such as <span className="header__sapn">React</span>,{" "}
+              <span className="header__sapn">HTML</span>,{" "}
+              <span className="header__sapn">CSS</span>, and{" "}
+              <span className="header__sapn">JS</span>, and I utilize frameworks
+              like <span className="header__sapn">Tailwind CSS</span> and{" "}
+              <span className="header__sapn">Framer Motion</span> to create
               visually stunning designs. Please explore my portfolio to view my
               past projects and experiences. Do not hesitate to contact me for
               any inquiries or collaboration opportunities. Thank you for
@@ -54,7 +59,7 @@ const Header = () => {
           <motion.div
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: false, amount: 0.5 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.8 }}
             variants={{
               hidden: { opacity: 0, x: 40 },
@@ -67,7 +72,7 @@ const Header = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.8 }}
           variants={{
             hidden: { opacity: 0, y: -100 },
