@@ -39,8 +39,8 @@ const Skills = () => {
         className="skills__images"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.5 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.7 }}
         variants={{
           hidden: { opacity: 0, x: 30 },
           visible: { opacity: 1, x: 0 },
