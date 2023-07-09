@@ -4,24 +4,13 @@ import Multitext from "./Multitext";
 import CTA from "./CTA";
 import ME from "../../assets/guna1.jpg";
 import HeaderSocial from "./HeaderSocial";
-import { motion } from "framer-motion";
 
 const Header = () => {
   return (
     <header id="home">
       <div className="container header_container">
         <h5>Hello I'm</h5>
-        <motion.h1
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: false, amount: 0.5 }}
-          transition={{ duration: 0.8 }}
-          variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
-          }}>
-          Guna Pandithurai
-        </motion.h1>
+        <h1>Guna Pandithurai</h1>
 
         <h5 className="text-light">
           <Multitext />
@@ -30,16 +19,7 @@ const Header = () => {
         <HeaderSocial />
         <div className="cont-bio">
           <div className="bio">
-            <motion.p
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ duration: 0.8 }}
-              variants={{
-                hidden: { opacity: 0, x: -50 },
-                visible: { opacity: 1, x: 0 },
-              }}
-              className="bio-para">
+            <p className="bio-para">
               Greetings! As an experienced front-end developer with{" "}
               <span className="header__sapn">ONE </span> year of experience, I
               design and develop dynamic and responsive web applications that
@@ -54,34 +34,17 @@ const Header = () => {
               past projects and experiences. Do not hesitate to contact me for
               any inquiries or collaboration opportunities. Thank you for
               visiting!
-            </motion.p>
+            </p>
           </div>
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.8 }}
-            variants={{
-              hidden: { opacity: 0, x: 40 },
-              visible: { opacity: 1, x: 0 },
-            }}
-            class="image">
+          <div class="image">
             <img src={ME} alt="me" class="my-img" />
-          </motion.div>
+          </div>
         </div>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.8 }}
-          variants={{
-            hidden: { opacity: 0, y: -100 },
-            visible: { opacity: 1, y: 0 },
-          }}>
+        <div>
           <a href="#contact" className="scroll_down">
             Scroll Down
           </a>
-        </motion.div>
+        </div>
       </div>
     </header>
   );

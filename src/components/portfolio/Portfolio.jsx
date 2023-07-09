@@ -7,7 +7,6 @@ import Img4 from "../../assets/take_control.png";
 import Img5 from "../../assets/auth-firebase.png";
 import Img6 from "../../assets/vote.png";
 import { BsGithub } from "react-icons/bs";
-import { motion } from "framer-motion";
 
 const data = [
   {
@@ -54,7 +53,8 @@ const data = [
   {
     id: 6,
     image: Img6,
-    title: "A voting website allows users to vote online and aggregates the results.",
+    title:
+      "A voting website allows users to vote online and aggregates the results.",
     github: "https://github.com/Guna-Pandi/voting-with-all-eligible-functions",
     demo: "https://github.com/Guna-Pandi/voting-with-all-eligible-functions",
   },
@@ -62,30 +62,10 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <motion.h1
-        className="portfolio__h1"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: false, amount: 0.3 }}
-        transition={{ duration: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}>
-        Portfolio
-      </motion.h1>
+      <h1 className="portfolio__h1">Portfolio</h1>
       <h5 className="portfolio__h5">My Recent Works</h5>
 
-      <motion.div
-        className="container portfolio__container"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0 }}
-        transition={{ duration: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, x: -20 },
-          visible: { opacity: 1, x: 0 },
-        }}>
+      <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article className="portfolio__item" key={id}>
@@ -112,7 +92,7 @@ const Portfolio = () => {
             </article>
           );
         })}
-      </motion.div>
+      </div>
     </section>
   );
 };
