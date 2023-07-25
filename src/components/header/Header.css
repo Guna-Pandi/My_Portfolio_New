@@ -115,10 +115,10 @@ header {
     text-align: center;
     height: 310px;
     width: 300px;
-    margin-bottom: 6rem;
+    margin-bottom: 6.5rem;
   }
   .bio-para {
-    /* padding-top: 5rem; */
+    /* padding-botton: 5rem; */
     font-size: 16px;
   }
   .my-img {
@@ -138,14 +138,12 @@ header {
   }
 }
 
-/* @media (max-width: 390px) {
-  header {
-    height: 100vh;
-  }
-}
- */
+
 @media (max-width: 1024px) {
   .cont-bio {
     flex-direction: column;
+  }
+  .bio {
+    margin-bottom: 6rem;
   }
 }

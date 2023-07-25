@@ -20,7 +20,7 @@ function App() {
     }, 3000);
   }, []);
 
-  // Disable Right Click
+  // // Disable Right Click
   const handleContextmenu = (e) => {
     e.preventDefault();
   };

@@ -14,6 +14,8 @@ import Firebase from "../../assets/logo/firebase.png";
 import Canva from "../../assets/logo/canva.png";
 import Figma from "../../assets/logo/figma.png";
 import Netlify from "../../assets/logo/Netlify New 2023.png";
+import Java from "../../assets/logo/java.png";
+import Sync from "../../assets/logo/syncfusion.png";
 
 const Skills = () => {
   return (
@@ -79,6 +81,14 @@ const Skills = () => {
         <div className="single__img">
           <img src={Figma} alt="figma" className="logo__imgs" />
           <p className="skills__para">Figma</p>
+        </div>
+        <div className="single__img">
+          <img src={Java} alt="figma" className="logo__imgs" />
+          <p className="skills__para">Java</p>
+        </div>
+        <div className="single__img">
+          <img src={Sync} alt="figma" className="logo__imgs" />
+          <p className="skills__para">Syncfusion</p>
         </div>
       </div>
     </section>
