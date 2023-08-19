@@ -20,7 +20,7 @@ const Header = () => {
         <div className="cont-bio">
           <div className="bio">
             <p className="bio-para">
-              Greetings! As an experienced front-end developer with{" "}
+              Greetings! As an experienced <span className="header__sapn">Front-end developer</span>   with{" "}
               <span className="header__sapn">ONE </span> year of experience, I
               design and develop dynamic and responsive web applications that
               offer exceptional user experiences. My expertise lies in
@@ -33,8 +33,8 @@ const Header = () => {
               <span className="header__sapn">Framer Motion</span> to create
               visually stunning designs. Please explore my portfolio to view my
               past projects and experiences. Do not hesitate to contact me for
-              any inquiries or collaboration opportunities. Thank you for
-              visiting!
+              any inquiries or collaboration opportunities.
+              <span className="header__sapn"> Thank you </span> for visiting!
             </p>
           </div>
           <div class="image">

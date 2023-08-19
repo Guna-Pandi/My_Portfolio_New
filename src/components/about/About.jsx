@@ -27,7 +27,7 @@ const About = () => {
           <div className="about__pt1">
             <p className="about__para">
               <MdKeyboardDoubleArrowRight className="about__arrow1" />I am
-              currently pursuing my BTech degree in Information Technology from
+              currently pursuing my B.Tech degree in Information Technology from
               Coimbatore Institute of Technology, and I am set to graduate in
               2024. In addition to my technical expertise, I am also proficient
               in programming languages such as java and I have developed strong
