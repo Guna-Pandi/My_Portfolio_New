@@ -24,7 +24,8 @@ const Header = () => {
               <span className="header__sapn">ONE </span> year of experience, I
               design and develop dynamic and responsive web applications that
               offer exceptional user experiences. My expertise lies in
-              technologies such as <span className="header__sapn">React</span>,{" "}
+              technologies such as{" "}
+              <span className="header__sapn">React JS</span>,{" "}
               <span className="header__sapn">HTML</span>,{" "}
               <span className="header__sapn">CSS</span>, and{" "}
               <span className="header__sapn">JS</span>, and I utilize frameworks

@@ -6,6 +6,8 @@ import Img3 from "../../assets/food.png";
 import Img4 from "../../assets/take_control.png";
 import Img5 from "../../assets/auth-firebase.png";
 import Img6 from "../../assets/vote.png";
+import Img7 from "../../assets/syncfusion.png";
+import Img8 from "../../assets/weather.png";
 import { BsGithub } from "react-icons/bs";
 
 const data = [
@@ -31,16 +33,15 @@ const data = [
     title:
       "An online food delivery website lets customers order from a restaurant and have it delivered to their doorstep with ease.",
     github: "https://github.com/Guna-Pandi/Restaurant-Aplication",
-    demo: "https://github.com/Guna-Pandi/Restaurant-Aplication",
+    demo: "https://restaurant-aplication-8tkozajbo-guna-pandi.vercel.app/ ",
   },
   {
     id: 4,
     image: Img4,
     title:
-      "A conference website provides event details, registration, and resources like presentation slides or recorded sessions for attendees.",
-    github:
-      "https://github.com/Guna-Pandi/Conference-website-using-html-and-css",
-    demo: "https://github.com/Guna-Pandi/Conference-website-using-html-and-css",
+      "The website is designed to provide information about the event, including schedules, speakers, workshops, and more. It is also a platform for students to register for the event. ",
+    github: "https://github.com/Guna-Pandi/CIT_Symposium",
+    demo: "https://celestra.in/",
   },
   {
     id: 5,
@@ -54,9 +55,25 @@ const data = [
     id: 6,
     image: Img6,
     title:
-      "A voting website allows users to vote online and aggregates the results.",
-    github: "https://github.com/Guna-Pandi/voting-with-all-eligible-functions",
-    demo: "https://github.com/Guna-Pandi/voting-with-all-eligible-functions",
+      "Discover global trends, stylish clothing, and accessories for men and women. User-friendly interface, detailed product descriptions, and customer reviews.",
+    github: "https://github.com/Guna-Pandi/TrendVortex_Client",
+    demo: "https://trend-vortex.vercel.app/ ",
+  },
+  {
+    id: 7,
+    image: Img7,
+    title:
+      "Web dashboards have become a critical tool for businesses and organizations to visualize and analyze data effectively. Syncfusion, a renowned provider of UI controls and frameworks.",
+    github: "https://github.com/Guna-Pandi/DashBoard-Syncfusion",
+    demo: "https://dash-board-syncfusion.vercel.app/ ",
+  },
+  {
+    id: 8,
+    image: Img8,
+    title:
+      "Weather information is vital for individuals, businesses, and travelers alike. Creating a weather website using the OpenWeather API allows you to provide users with up-to-date weather forecasts and conditions for any location around the world.",
+    github: "https://github.com/Guna-Pandi/Weather-React-app",
+    demo: "https://weather-henna-nu.vercel.app/",
   },
 ];
 const Portfolio = () => {
